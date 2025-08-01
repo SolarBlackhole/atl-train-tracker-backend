@@ -1,0 +1,48 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdm.toml
+*.mypy_cache/
+*.pytest_cache/
+*.env
+.env
+
+# FastAPI/Python logs
+*.log
+
+# Docker & Build cache
+*.tar
+*.bak
+*.swp
+.dockerignore
+
+# macOS system files
+.DS_Store
+
+# VSCode/JetBrains IDE config
+.vscode/
+.idea/
+
+# Environment & dependency folders
+.env/
+venv/
+.venv/
+
+# OS-generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# GitHub or CI artifacts
+*.coverage
+coverage.xml
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Links and URLs
+app/links.py
