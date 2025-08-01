@@ -44,5 +44,5 @@ dist/
 build/
 *.egg-info/
 
-# Links and URLs
-app/links.py
+README.md
+# Ignore README.md for now
