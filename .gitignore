@@ -43,6 +43,3 @@ htmlcov/
 dist/
 build/
 *.egg-info/
-
-README.md
-# Ignore README.md for now
