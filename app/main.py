@@ -14,7 +14,7 @@ app.add_middleware(
 
 @app.get("/")
 async def root():
-    return {"message": "Atlanta Train Tracker API"}
+    return {"message": "Atlanta Train Tracker API, WIP"}
 
 @app.get("/trains")
 async def get_trains():
