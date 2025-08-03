@@ -6,7 +6,7 @@ app = FastAPI(title="Atlanta Train Tracker API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Consider limiting this in production
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -18,4 +18,8 @@ async def root():
 
 @app.get("/trains")
 async def get_trains():
-    return atlanta_trains.get_cached_data()
+    return atlanta_trains.get_cached_data()["trains"]
+
+@app.get("/predictions")
+async def get_predictions():
+    return atlanta_trains.get_cached_data()["predictions"]
